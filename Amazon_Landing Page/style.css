@@ -1,0 +1,536 @@
+* {
+  margin: 0px;
+  font-family: Arial;
+  border: border-box;
+  color: white;
+}
+
+.navBar {
+  height: 60px;
+  background-color: #0f1111;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navLogo {
+  height: 50px;
+  width: 130px;
+}
+
+.logo {
+  background-image: url(Assets/amazon_logo.png);
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+.border {
+  border: 2px solid transparent;
+}
+
+.logo:hover {
+  border: 1.4px solid white;
+  border-radius: 4px;
+}
+
+/* Navigation's Address Section */
+.navAddress {
+  height: 50px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+#layerLocation {
+  font-size: 0.76rem;
+  color: #cccccc;
+  margin-top: 4px;
+  margin-left: 22px;
+}
+.iconLocation {
+  display: flex;
+  margin-left: 6px;
+}
+
+#locationIcon {
+  color: red;
+}
+
+.layer2Location {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 1.5px;
+  margin-left: 4.5px;
+}
+
+.navAddress:hover {
+  border: 1.4px solid white;
+  border-radius: 4px;
+}
+
+/* Search Area */
+
+.navSearch {
+  height: 60px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.selectBar {
+  height: 40px;
+  width: 60px;
+  background-color: #e6e6e6;
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.selectBar:hover {
+  background-color: #cccccc;
+}
+
+.selectBar:active {
+  border: 3px solid #ff9800;
+  /* border: 2px solid #febd69; */
+}
+
+input {
+  height: 38px;
+  width: 100%;
+  border: none;
+}
+
+.serachIcon {
+  height: 40px;
+  width: 45px;
+  background-color: #febd69;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+#searchIcon {
+  color: black;
+  font-size: 20px;
+}
+.serachIcon:hover {
+  background-color: #ff9800;
+}
+
+/* Country Select Logo CSS */
+
+.navLocationLogo {
+  height: 50px;
+  width: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #0f1111; */
+}
+
+#locationLogo {
+  font-size: 14px;
+  font-weight: 600;
+}
+.countrySelect {
+  margin-left: 4px;
+  width: 14px;
+}
+
+.navLocationLogo:hover {
+  border: 1.4px solid white;
+  border-radius: 4px;
+}
+
+#locationIcon_2 {
+  height: 16.5px;
+  width: 16px;
+  color: red;
+}
+
+.countrySelect {
+  height: 15px;
+  width: 19px;
+  color: white;
+  background-color: #0f1111;
+  text-align: center;
+}
+
+/* SignIn DevOption */
+
+.navSignOption {
+  height: 50px;
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.layerOne {
+  font-size: 12px;
+  height: 14px;
+
+  padding: 0px 1px;
+}
+
+#layerOneSign {
+  width: 105px;
+}
+
+.layerTwo {
+  font-size: 15px;
+  font-weight: 600;
+  height: 14px;
+}
+
+#layerTwoSign {
+  width: 115px;
+}
+
+.navSignOption:hover {
+  border: 1.4px solid white;
+  border-radius: 4px;
+}
+
+/* Nav Policy Section */
+
+.navPolicy {
+  height: 50px;
+  width: 77px;
+  margin-left: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navPolicy:hover {
+  border: 1.4px solid white;
+  border-radius: 4px;
+}
+
+/* Navigation Menu 2 - Producr Lists */
+
+.navProductCatogeries {
+  /* width: 100%; */
+  height: 39px;
+  background-color: #232f3e;
+  padding: 0px 6px 0px 15px;
+  display: flex;
+}
+
+.navLeft {
+  width: 68%;
+  height: 39px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.selectAllOption {
+  width: 58px;
+  height: 36px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding: 8px 9px; */
+}
+
+.selectAllOption:hover {
+  border: 1.3px solid white;
+  border-radius: 3px;
+}
+
+.freshItems {
+  width: 75px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.freshItemsList {
+  width: 15px;
+  height: 13px;
+  margin-left: 4px;
+  background-color: #232f3e;
+}
+
+.freshItems:hover {
+  border: 1.3px solid white;
+  border-radius: 3px;
+}
+
+.bestSellersOption {
+  width: 95px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bestSellersOption:hover {
+  border: 1.3px solid white;
+  border-radius: 3px;
+}
+.todaysDealOption {
+  width: 104px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.todaysDealOption:hover {
+  border: 1.3px solid white;
+  border-radius: 3px;
+}
+
+.mobilePhonesOption {
+  height: 36px;
+  width: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobilePhonesOption:hover {
+  border: 1.3px solid white;
+  border-radius: 3px;
+}
+
+.newReleasesOption {
+  height: 36px;
+  width: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newReleasesOption:hover {
+  border: 1.3px solid white;
+  border-radius: 3px;
+}
+
+/* Electronis Tab Options */
+
+.electronicsOption {
+  height: 36px;
+  width: 86px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.electronicsOption:hover {
+  border: 1.3px solid white;
+  border-radius: 3px;
+}
+
+.fashionOption {
+  height: 36px;
+  width: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fashionOption:hover {
+  border: 1.3px solid white;
+  border-radius: 3px;
+}
+
+.sellOption {
+  height: 36px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sellOption:hover {
+  border: 1.3px solid white;
+  border-radius: 3px;
+}
+
+.navRight {
+  width: 32%;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Hero Section */
+
+.heroSection {
+  position: relative;
+  height: 600px;
+  background-image: url("Assets/hero_Section.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Product Cart Sections */
+
+.productCartLists {
+  position: absolute;
+  width: 97%;
+  height: 460px;
+  /* background-color: grey; */
+  /* opacity: 0.33; */
+  margin-top: 24%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#cartProperties {
+  width: 290px;
+  height: 420px;
+  background-color: #faf9f6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+h2 {
+  width: 250px;
+  height: 56px;
+  margin-top: 13px;
+  font-size: 21px;
+  color: #0f1111;
+}
+
+/* Layer One of the Cart  */
+#cartLayerOne,
+#cartLayerTwo {
+  width: 250px;
+  height: 103px;
+  margin-top: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#productLayer {
+  width: 120px;
+  height: 103px;
+}
+
+.descriptionlayerOne,
+.descriptionlayerTwo {
+  width: 250px;
+  height: 36px;
+  margin-top: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#detailOne {
+  width: 120px;
+  height: 36px;
+  color: #0f1111;
+  font-size: 12px;
+}
+
+.exploreSection {
+  width: 250px;
+  height: 19px;
+}
+
+#exploreLayer {
+  width: 250px;
+  height: 19px;
+  color: #007185;
+  font-size: 13px;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+/* From Here We can Add Images and Their URL of which section of the Product Cart */
+.imageOne {
+  background-image: url("Assets/cart_21.jpg");
+  background-size: cover;
+}
+
+.imageTwo {
+  background-image: url("Assets/cart_22.jpg");
+  background-size: cover;
+}
+
+.imageThree {
+  background-image: url("Assets/cart_1.jpg");
+  background-size: cover;
+}
+.imageFour {
+  background-image: url("Assets/cart_12.jpg");
+  background-size: cover;
+}
+
+.imageFive {
+  background-image: url("Assets/cart_31.jpg");
+  background-size: cover;
+}
+
+.imageSix {
+  background-image: url("Assets/cart_32.jpg");
+  background-size: cover;
+}
+
+.imageSeven {
+  background-image: url("Assets/cart_41.jpg");
+  background-size: cover;
+}
+.imageEight {
+  background-image: url("Assets/cart_42.jpg");
+  background-size: cover;
+}
+
+.image_11 {
+  background-image: url("Assets/Layer2_11.jpg");
+  background-size: cover;
+}
+
+.image_12 {
+  background-image: url("Assets/Layer2_12.jpg");
+  background-size: cover;
+}
+
+.image_21 {
+  background-image: url("Assets/Layer2_21.jpg");
+  background-size: cover;
+}
+.image_22 {
+  background-image: url("Assets/Layer2_22.jpg");
+  background-size: cover;
+}
+
+.image_31 {
+  background-image: url("Assets/Layer2_31.jpg");
+  background-size: cover;
+}
+
+.image_32 {
+  background-image: url("Assets/Layer2_32.jpg");
+  background-size: cover;
+}
+
+.image_41 {
+  background-image: url("Assets/Layer2_41.jpg");
+  background-size: cover;
+}
+.image_42 {
+  background-image: url("Assets/Layer2_42.jpg");
+  background-size: cover;
+}
